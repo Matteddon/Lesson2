@@ -1,6 +1,65 @@
 /* This is main style sheet */
 /* colour scheme: */
+/* Blue glitter banner */
+/* the colours are Deep Teal #025159, Sea Caller #3E848C, Waterway #7AB8BF, Ice Effect #C4EEF2 And chic brick #A67458 */
+
+body {
+  background-color: #7AB8BF;
+}
 
 h1 {
-  color: white;
+  background-color: #3E848C;
+  font-size: 40px;
+  color: #fff;
+}
+
+h1 {
+  background-color: #3E848C;
+  font-size: 30px;
+  color: #fff;
+}
+
+.bg-darkblue {
+  background-color: #025159;
+  color:#fff;
+  padding:25px;
+  margin:3px;
+}
+
+nav {
+  background-color: #7AB8BF;
+  border: 1px solid #fff;
+  color: #000;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+nav ul li {
+  display: incline-block;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #000;
+  text-align: center;
+  display: block;
+  line-height: 56px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li:hover {
+  background-color: #3E848C;
+}
+
+nav ul li:hover a {
+  color: #fff;
+}
+
+footer{
+  background-color:#A67458;
+  color:#fff;
+  text-align:center;
+  padding: 3px;
 }
